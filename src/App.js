@@ -18,7 +18,7 @@ function App() {
   const claculate=()=>{
     try{
 
-      setResult(eval(result))
+      setResult(this.eval(result))
     }
     catch{
       setResult("error")
